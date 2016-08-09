@@ -19,6 +19,7 @@ class Aeio
      StringBuffer b=new StringBuffer(str);
   
                   str=b.reverse().toString();
+                  out=str;
                   str=str.replace("a","");
                    str=str.replace("e","");
                    str=str.replace("i","");
@@ -29,7 +30,7 @@ class Aeio
                    str=str.replace("I","");
                    str=str.replace("O","");
                    str=str.replace("U","");
-
+                   System.out.println(out);
                    System.out.println(str);
     
                }
